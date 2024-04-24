@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 const ReactUseState = () => {
     // eslint-disable-next-line
@@ -8,14 +8,13 @@ const ReactUseState = () => {
         setCount(count => count + 1)
     }
 
-   
 
     return (
         <>
             <div className="w-50 mx-auto mt-5">
                 <div className="card">
                     <div className="card-header">
-                        <h1 className="text-center">React Hook</h1>
+                        <h1 className="text-center">React useState</h1>
                     </div>
                     <div className="card-body">
                         <h3 className="text-center">Count: {count}</h3>
@@ -29,4 +28,4 @@ const ReactUseState = () => {
     )
 } 
 
-export default ReactUseState
+export default ReactUseState;
