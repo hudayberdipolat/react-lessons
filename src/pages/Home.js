@@ -1,5 +1,6 @@
 import { useState } from "react";
 import About from "./About";
+import "../myStyle.scss";
 
 const Home =()=>{
      // eslint-disable-next-line

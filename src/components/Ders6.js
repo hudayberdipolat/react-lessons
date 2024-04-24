@@ -1,0 +1,4 @@
+/*
+    created pages folder and 
+    learning React routing 
+*/
