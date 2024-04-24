@@ -40,7 +40,7 @@ const Home = () => {
     return (
         <>
             <div className="w-50 mt-5 mx-auto p-5 " style={conatinerStyle} >
-                <h1 className="text-center " >Home Page</h1>
+                <h1 className="text-center " >Home Page Fetch</h1>
                 <hr />
                 <button className="btn btn-primary w-100 " onClick={GetAllToDO}>Get All ToDo Lists</button>
                 <hr />
