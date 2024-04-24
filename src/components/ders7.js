@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-const ReactHook = () => {
+const ReactUseState = () => {
     // eslint-disable-next-line
     const [count, setCount] = useState(0)
 
@@ -29,4 +29,4 @@ const ReactHook = () => {
     )
 } 
 
-export default ReactHook
+export default ReactUseState
