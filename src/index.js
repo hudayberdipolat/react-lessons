@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import Ders8 from './components/ders8';
+import Ders9App from './Ders9';
 
 
 
@@ -9,7 +9,7 @@ import Ders8 from './components/ders8';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Ders8/>
+        <Ders9App/>
 );
 
 
